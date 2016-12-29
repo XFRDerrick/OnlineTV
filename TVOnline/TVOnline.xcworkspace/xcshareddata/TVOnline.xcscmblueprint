@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A31636E910A50E4B25F633F02793AE8B78FDA55F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A31636E910A50E4B25F633F02793AE8B78FDA55F" : 9223372036854775807,
+    "4EE4DBCEC963A303A50D3347E3CE0C7EFA3D1336" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "46AEA4B5-B174-4C8D-8830-E0D3F3C46C4A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A31636E910A50E4B25F633F02793AE8B78FDA55F" : "TVOnline\/",
+    "4EE4DBCEC963A303A50D3347E3CE0C7EFA3D1336" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "TVOnline",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TVOnline.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hetefe\/ALLOnlineTV.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4EE4DBCEC963A303A50D3347E3CE0C7EFA3D1336"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hetefe\/ALLOnlineTV.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A31636E910A50E4B25F633F02793AE8B78FDA55F"
+    }
+  ]
+}

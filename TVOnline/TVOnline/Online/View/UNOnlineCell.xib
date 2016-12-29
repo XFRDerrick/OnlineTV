@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="UNOnlineCell" id="gTV-IL-0wX" customClass="UNOnlineCell">
+            <rect key="frame" x="0.0" y="0.0" width="215" height="199"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="215" height="199"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="scream0" translatesAutoresizingMaskIntoConstraints="NO" id="svk-Em-hfR">
+                        <rect key="frame" x="0.0" y="0.0" width="215" height="129"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="svk-Em-hfR" secondAttribute="height" multiplier="5:3" id="Fva-H5-8aM"/>
+                        </constraints>
+                    </imageView>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5qj-HN-HI8">
+                        <rect key="frame" x="0.0" y="134" width="60" height="60"/>
+                        <constraints>
+                            <constraint firstAttribute="width" secondItem="5qj-HN-HI8" secondAttribute="height" multiplier="1:1" id="efJ-hK-DCM"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="oQ4-3F-siq">
+                        <rect key="frame" x="65" y="149" width="33" height="16"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JAW-fT-fNg">
+                        <rect key="frame" x="65" y="165" width="26.5" height="12"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <color key="textColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Qi0-Fy-l52">
+                        <rect key="frame" x="3" y="106" width="60" height="20"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="60" id="IfJ-5C-AdD"/>
+                            <constraint firstAttribute="height" constant="20" id="OaF-Rn-vjI"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                        <inset key="imageEdgeInsets" minX="-10" minY="0.0" maxX="0.0" maxY="0.0"/>
+                        <state key="normal" title="23万" image="观看人数" backgroundImage="player_bottom_control_bg">
+                            <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </state>
+                    </button>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="5qj-HN-HI8" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="39N-gM-3Nw"/>
+                <constraint firstItem="oQ4-3F-siq" firstAttribute="centerY" secondItem="5qj-HN-HI8" secondAttribute="centerY" constant="-7" id="6oI-aM-PrV"/>
+                <constraint firstItem="5qj-HN-HI8" firstAttribute="top" secondItem="Qi0-Fy-l52" secondAttribute="bottom" constant="8" id="7e0-jz-fLl"/>
+                <constraint firstItem="JAW-fT-fNg" firstAttribute="centerY" secondItem="5qj-HN-HI8" secondAttribute="centerY" constant="7" id="9kJ-qS-W1E"/>
+                <constraint firstItem="Qi0-Fy-l52" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="3" id="Da5-Tf-rlQ"/>
+                <constraint firstItem="oQ4-3F-siq" firstAttribute="leading" secondItem="5qj-HN-HI8" secondAttribute="trailing" constant="5" id="JQy-NP-Tgr"/>
+                <constraint firstAttribute="trailing" secondItem="svk-Em-hfR" secondAttribute="trailing" id="dFk-kG-aBF"/>
+                <constraint firstItem="svk-Em-hfR" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="gey-dJ-Ug8"/>
+                <constraint firstAttribute="bottom" secondItem="5qj-HN-HI8" secondAttribute="bottom" constant="5" id="gx0-ez-N2I"/>
+                <constraint firstItem="svk-Em-hfR" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="niv-kf-GkX"/>
+                <constraint firstItem="5qj-HN-HI8" firstAttribute="top" secondItem="svk-Em-hfR" secondAttribute="bottom" constant="5" id="o0f-45-dEQ"/>
+                <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="JAW-fT-fNg" secondAttribute="trailing" id="qhe-Wi-B53"/>
+                <constraint firstItem="JAW-fT-fNg" firstAttribute="leading" secondItem="5qj-HN-HI8" secondAttribute="trailing" constant="5" id="sbS-Ze-3zy"/>
+            </constraints>
+            <size key="customSize" width="215" height="199"/>
+            <connections>
+                <outlet property="gameImageIV" destination="svk-Em-hfR" id="gzA-fG-0CZ"/>
+                <outlet property="headerImageIV" destination="5qj-HN-HI8" id="VBG-wn-hmM"/>
+                <outlet property="playerName" destination="oQ4-3F-siq" id="vL7-nD-YkQ"/>
+                <outlet property="showDetail" destination="JAW-fT-fNg" id="TIA-Fg-x9Q"/>
+                <outlet property="viewCountLable" destination="Qi0-Fy-l52" id="XXJ-AS-H8t"/>
+            </connections>
+            <point key="canvasLocation" x="10.5" y="81.5"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="player_bottom_control_bg" width="400" height="100"/>
+        <image name="scream0" width="57" height="51"/>
+        <image name="观看人数" width="10" height="10"/>
+    </resources>
+</document>
